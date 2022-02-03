@@ -352,6 +352,17 @@ background:#c6faf1;
 .penguin * {
 position: absolute;
 }
+
+/*-----------new code----------*/
+:root {
+    --red-color: red;
+  }
+  .red-box {
+    background:red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
       </style>
       
 </head>
@@ -459,6 +470,9 @@ position: absolute;
     <div class="beak-bottom"></div>
   </div>
 </div>
+
+<!-----red box-->
+<div class="red-box"></div>
     </main>
 </body>
 </html>
